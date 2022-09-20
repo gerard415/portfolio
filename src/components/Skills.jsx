@@ -4,7 +4,7 @@ import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 
 const Skills = () => {
     return (
-        <section id="skills" className='w-full h-screen bg-[#0a192f]'>
+        <div name="skills" className='w-full min-h-screen bg-[#0a192f]'>
           <div className="container px-5 py-10 mx-auto">
             <div className="text-center mb-20">
               <p className=" sm:text-4xl text-3xl font-medium title-font inline border-b-4 border-pink-600 text-gray-300 mb-4">
@@ -63,7 +63,7 @@ const Skills = () => {
                 </div>
             </div>
           </div>
-        </section>
+        </div>
       );
 }
 
