@@ -62,6 +62,7 @@ const Skills = () => {
                   </div>
                 </div>
           </div>
+          <div name='projects'></div>
       </div>
     </div>
   );

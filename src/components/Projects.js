@@ -4,7 +4,7 @@ import { projects } from "../data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-300 w-full min-h-screen bg-[#0a192f] mb-20">
+    <section className="text-gray-300 w-full min-h-screen bg-[#0a192f] mb-20">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="text-center mb-10">
           <p className="sm:text-4xl text-3xl font-medium title-font inline border-b-4 border-pink-600 text-gray-300 mb-4">
@@ -24,7 +24,7 @@ export default function Projects() {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative  w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
@@ -38,6 +38,7 @@ export default function Projects() {
           ))}
         </div>
       </div>
+      <div name='contact'></div>
     </section>
   );
 }

@@ -17,18 +17,17 @@ const Navbar = () => {
 
     const handleClick = () => {
         setNav(!nav)
-        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
     }
 
     return (
         <div className='fixed z-10 w-full h-[80px] flex justify-between items-center bg-[#0a192f] px-4 text-gray-300' >
             <div>
-                <img src={Logo} alt="logo" style={{width: '50px'}} />
+                <img src={Logo} alt="logo" style={{width: '100px'}} />
             </div>
 
             {/* menu */}
             <ul className='hidden md:flex'>
-                <li>
+                <li >
                     <Link to='home' smooth={true} duration={500}>Home</Link>
                 </li>
                 <li>
