@@ -1,6 +1,6 @@
 // src/data.js
 
-import travelGif from './assets/Travel App.gif'
+import realEstateGif from './assets/Real Estate.gif'
 import TenziesGif from './assets/Tenzies App.gif'
 import gymGif from './assets/gym App.gif'
 import cryptoGif from './assets/cryptoApp.gif'
@@ -12,7 +12,7 @@ export const projects = [
       description:
         "A cryptocurrency application made with react where users can get information and news about any coin they want.",
       image: cryptoGif,
-      link: "",
+      link: "https://coinwarrior.netlify.app",
     },
     {
       title: "Gym Application",
@@ -20,7 +20,7 @@ export const projects = [
       description:
         "A gym application built with react, which users can use to workout or get exercises based on equipment or target muscle.",
       image: gymGif,
-      link: "",
+      link: "https://gerard-gym.netlify.app",
     },
     {
       title: "Tenzies Game",
@@ -28,14 +28,14 @@ export const projects = [
       description:
         "A tenzies game built using react. Players keep picking a particular die number until all the dice are the same",
       image: TenziesGif,
-      link: "",
+      link: "https://tenziesfun.netlify.app",
     },
     {
-      title: "Tourist Application",
-      subtitle: "React",
+      title: "Real Estate Application",
+      subtitle: "NextJs",
       description:
-        "A tourist guide application in which users can get all the hotels, restaurants and attractions based on a particular location.",
-      image: travelGif,
-      link: "",
+        "A NextJs application in which users can view and filter various properties that are for rent and sale.",
+      image: realEstateGif,
+      link: "https://gerard-realtor.netlify.app",
     },
   ];
