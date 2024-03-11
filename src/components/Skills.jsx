@@ -25,7 +25,7 @@ const Skills = () => {
                   <div className="bg-gray-800 rounded flex p-4 h-full items-center hover:scale-110 duration-500">
                     <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
                     <span className="title-font font-medium text-gray-300">
-                      ReactJS
+                      TypeScript
                     </span>
                   </div>
                 </div>
@@ -49,7 +49,7 @@ const Skills = () => {
                   <div className="bg-gray-800 rounded flex p-4 h-full items-center hover:scale-110 duration-500">
                     <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
                     <span className="title-font font-medium text-gray-300">
-                      GraphQl
+                      Express
                     </span>
                   </div>
                 </div>

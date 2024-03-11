@@ -4,6 +4,8 @@ import travelGif from './assets/Travel App.gif'
 import realEstateGif from './assets/Real Estate.gif'
 import gymGif from './assets/gym App.gif'
 import cryptoGif from './assets/cryptoApp.gif'
+import inventoryGif from './assets/inventory App.gif'
+import appointmentGif from './assets/appointment App.gif'
 
 export const projects = [
     {
@@ -37,5 +39,21 @@ export const projects = [
         "A tourist guide application in which users can get all the hotels, restaurants and attractions based on a particular location.",
       image: travelGif,
       link: "https://gerard-travel-advisor.netlify.app",
+    },
+    {
+      title: "Inventory Management Application",
+      subtitle: "Mern stack",
+      description:
+        <p>An inventory management application where a user can manipulate their inventory by creating, editing and deleting items <br/> (give about 50 seconds or more for the api to load and do not refresh)</p>,
+      image: inventoryGif,
+      link: "https://stockx-jmyy.onrender.com",
+    },
+    {
+      title: "Doctor Appointment Application",
+      subtitle: "Typescript Mern stack",
+      description:
+        <p>An application where users can log in as either a doctor or patient and either book appointments or receive appointments <br/> (give about 50 seconds or more for the api to load and do not refresh)</p>,
+      image: appointmentGif,
+      link: "https://healhub-ug2z.onrender.com/",
     },
   ];
